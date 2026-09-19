@@ -5,47 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEMA Website</title>
     <link rel="stylesheet" href="ui.css">
-    <style>
-        h1 {
-            text-align: center;
-        }
-        p {
-            text-align: center;
-        }
-        div {
-            background-color: #e7e7e7;
-            padding: 10px;
-            margin: 10px;
-            margin-left: 20%;
-            margin-right: 20%;
-            align-items: center;
-        }
-
-        .red {
-            background-color: #fbcccc;
-        }
-        .blue {
-            background-color: #d2e4ff;
-        }
-        .about-me {
-            background-color: whitesmoke;
-        }
-        
-    </style>
 </head>
 <body>
-    <h1>My Portofolio Website</h1>
-    <p>Welcome to my first Portofolio Website, created at 18 September 2026! 😊</p>
-    <br>
-    <div class="red">
-        Selamat datang di website kami, perkenalkan saya SEMA, jelajahilah website kami ada banyak hal seru yang bisa Anda temukan di website kami
-    </div>
-    <div class="blue">
-        Ini merupakan website portofolio pertamaku, dari sini aku berkomitmen untuk mengembangkan portofolioku sembari aku belajar tentang pemrograman web lebih dalam dan saya mencoba mengembangkan secara dasar tanpa tools lebih (native) dan bantuan ai
-    </div>
-    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="nav-logo"><span>SEMA</span> a portofolio website</a>
+
+        <div class="nav-items">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#roadmap">Roadmap</a>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="hero">
+            <h1 class="title">Welcome!</h1>
+            <h1>to My Portofolio Website</h1>
+        </div>
+        <p>Hi, This is my first Portofolio Website, created at 18 September 2026! 😊</p>
+        <br>
+        <div class="cred">
+            Selamat datang di website kami, perkenalkan saya SEMA, jelajahilah website kami ada banyak hal seru yang bisa Anda temukan di website kami
+        </div>
+        <div class="cblue">
+            Ini merupakan website portofolio pertamaku, dari sini aku berkomitmen untuk mengembangkan portofolioku sembari aku belajar tentang pemrograman web lebih dalam dan saya mencoba mengembangkan secara dasar tanpa tools lebih (native) dan bantuan ai
+        </div>
+    </section>
+
     <!-- About Me -->
-    <h1> About Me</h1>
+    <h1 id="about">Tentang Saya</h1>
+    <div class="about-me">
+        <p>Hai, Saya seorang Website Developer atau Programmer yang sekarang masih begginer dan masih terus belajar, Saya pertama kali mengenal dunia coding sejak aku duduk di bangku Sekolah Menengah Atas (SMK). Aku sangat menyukai apapun tentang coding</p>
+    </div>
+
+    <!-- Roadmap -->
+    <h1 id="roadmap">Roadmap</h1>
     <div class="about-me">
         <h3>2009-2016</h3>
         <p>Tahun lahirku, aku lahir di Salatiga, waktu itu aku sangat senang dan sangat sosial, setiap hari bermain bersama sepupu dekat dan menjelajahi sekitaran</p>
@@ -62,6 +58,11 @@
         <h3>2026</h3>
         <p>Masuk ke Kelas 12 SMK, aku mulai memasuki lingkungan kerja yang produktif, dan mulai dari sini aku menabung untuk memperkaya portofolioku, dan belajar pemrograman lebih dalam (core nya) dan mulai tidak bergantung lagi dengan AI</p>
     </div>
+
+    <!-- footer -->
+    <section class="footer">
+        footer - coming soon
+    </section>
     
 </body>
 </html>
